@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccin+</title>
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+<header>
+    <a class="brand" href="index.html">Vaccine<span>+</span></a>
+
+    <div class="extra">
+                    <a href="admin.html" class="btn">Vaccins</a>
+            <a href="instructions.html" class="btn">Instructies</a>
+            <a href="#">Uitloggen</a>
+            </div>
+</header>
+<section><h1>Instructies voor bezoekers <span class="badge">Brielpoort, Deinze</span></h1>
+
+    <div class="error">Er is nog geen instructie PDF voor Brielpoort, Deinze opgeladen.</div>
+    <form method="POST" enctype="multipart/form-data">
+   
+    <h3>Instructies opladen</h3>
+    <input type="file" name="files"><br>
+    <sup>*</sup> Laad de instructies op als PDF
+
+    <div><button type="submit" class="btn btn-primary" name="upload">Opladen</button>
+    <a href="admin.html">Annuleren</a>
+    </div>
+</form>
+
+</section>
+</body>
+</html>
