@@ -45,7 +45,7 @@ if (file_exists($controller_path)) {
     include BASE_DIR . '/views/_partials/footer.php';
 
 }else {
-    echo 'error';
+   header('location: /vaccin');
 }
 
 
